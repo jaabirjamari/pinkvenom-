@@ -1,0 +1,168 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+body.home {
+  background-color: #000000;
+  background: linear-gradient(90deg, #4e4e4e 1%, #969696 100%);
+  color: #ffffff;
+  align-items: center;
+}
+
+body.tutorial {
+  background: linear-gradient(90deg, #030303 0%, #db82c8 100%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #ff5ff2;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Navigation */
+.navagationLinks img {
+  filter: invert(34%) sepia(99%) saturate(7470%) hue-rotate(305deg) brightness(200%) contrast(101%);
+  width: 20px;
+  height: 20px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 40px;
+  margin: 30px;
+  box-shadow: 0 10px 30000px rgb(255, 255, 255);
+}
+
+.navagationLinks,
+.navagationLinks1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.navagationLinks li {
+  margin: 10px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.navagationLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navagationLinks a:hover {
+  color: #ff5ff2;
+}
+
+/* Upload Section */
+
+section {
+  margin-top: 2px;
+  padding: 5rem;
+  height: 200px;
+  width: 700px;
+  border: 1px solid #e0b5db;
+  border-radius: 8px;
+  background: #ff5ff2;
+  
+}
+#upload-section {
+  align-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+#upload-section input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  background: #fff0f6;
+  color: #d6336c;
+  font-size: 1rem;
+}
+
+#upload-section button {
+  background: linear-gradient(90deg, #e84bc3 0%, #971cc3 100%);
+  color: white;
+  border: #000000;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#upload-section button:hover {
+  background: linear-gradient(90deg, #b608d8 0%, #ca0969 100%);
+}
+
+/* Buttons */
+button {
+  padding: 2rem 3rem;
+  background-color: #ff00dd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+/* Tutorials Section Layout */
+.tutorial-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.tutorial-card {
+  background-color: #ff5ff2;
+  border: 2px solid #ffb3f1;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.tutorial-card img {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
